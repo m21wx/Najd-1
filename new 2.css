@@ -162,20 +162,7 @@ main .majid2{}
 main .majid3{
 	    grid-column-start: 2;
 }
-@media (max-width:667px){
-	main{
-		    width: 100%;
-			padding: 10px;
-			grid-template-columns: 100%;
-			gap: 25px;
-		}  
-		main .majid3{
-		  grid-column-start: 1;
-		  }
-		  footer>p{
-	     margin-right: 30px;
-		  }
-}	
+	
 
 footer{
     background-color: var(--main-bg-color);
@@ -222,12 +209,20 @@ footer .media .instagram:hover{
   
 }
 
-@media (max-width: 667px){
-footer {
-    flex-direction: column-reverse;
+@media (max-width:667px){
+	main{
+		    width: 100%;
+			padding: 10px;
+			grid-template-columns: 100%;
+			gap: 25px;
+		}  
+		main .majid3{
+		  grid-column-start: 1;
+		  }
+		  footer{
+	      flex-direction: column-reverse;
+		  }
 }
-}
-
 
 
 

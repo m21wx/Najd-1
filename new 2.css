@@ -222,11 +222,11 @@ footer .media .instagram:hover{
   
 }
 
-@media (max-width: 667px)
+@media (max-width: 667px){
 footer {
     flex-direction: column-reverse;
 }
-
+}
 
 
 
